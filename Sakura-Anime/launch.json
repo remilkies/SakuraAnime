@@ -1,0 +1,12 @@
+{
+  "configurations": [
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Launch Sakura Anime",
+      "url": "http://localhost:5173",
+      "webRoot": "${workspaceFolder}/Sakura-Anime",
+      "preLaunchTask": "start-vite"
+    }
+  ]
+}

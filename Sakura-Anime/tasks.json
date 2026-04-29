@@ -1,0 +1,12 @@
+{
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "dev",
+      "group": "build",
+      "label": "start-vite",
+      "detail": "Start the Vite development server",
+      "path": "Sakura-Anime"
+    }
+  ]
+}

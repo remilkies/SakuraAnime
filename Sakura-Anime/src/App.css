@@ -1,0 +1,648 @@
+ /* <weight>: Use a value from 400 to 700 */
+.caveat-primaryFont {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #F7E2C5;
+  overflow-x: hidden;
+}
+
+html, body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  width: 100%;
+}
+#root {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Caveat", cursive;
+  font-weight:500;
+  overflow-x: hidden;
+  /* max-width: 100vh; */
+  min-height: 100vh;
+
+}
+
+p{
+  font-family: "Caveat", cursive;
+  color: #5A514C;
+  font-size: 20px;
+}
+
+h1{
+  font-family: "Caveat", cursive;
+  font-weight: 600;
+  font-size: 50px;
+  color: #5A514C;
+}
+
+h2{
+  font-family: "Caveat", cursive;
+  font-weight: 600;
+  font-size: 64px;
+  color: #5A514C;
+  margin-top: 0;
+  padding-top: 20px;
+}
+h3{
+  font-family: "Caveat", cursive;
+  color: #5A514C;
+  font-size: 48px;
+  font-weight: 500;
+
+}
+
+nav{
+position: relative;
+z-index: 1;
+}
+
+.logo{
+  width: 700px;
+  align-items: center;
+}
+
+.headerContainer{
+  position: relative;
+  z-index: -1;
+  background-color: black;
+  align-items: center;
+}
+
+.headerContainer::before {
+  content: ""; /* HAVE TO HAVE for pseudo-elements to render */
+  position: absolute;
+  inset: 0; /* NEEDED Shorthand for top: 0; bottom: 0; left: 0; right: 0; */
+  background-image: url(./assets/SakuraAnime/headerBackground.jpeg);
+  background-size: cover; 
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  z-index: -1; 
+}
+
+.header{
+  height: 100vh; /* fills 100% OF WHATEVER SCREEN HEIGHT WHOOOOOOOOOOOAHHHHHH*/
+  height: 100dvh; /* fills 100% of the viewport height, even on mobile */
+  width: 100%;  
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+
+  /* prevents content from being cut off */
+  min-height: 800px;
+}
+
+.headerLabel{
+  position: absolute;
+  color: #5A514C;
+  left: 0 !important;
+  bottom: 0 !important;
+  background-color: #D98086;
+  padding: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 30px;
+  border-radius: 40%;
+  font-size: 14px;
+  width: 150px;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+button{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.mainContainer{
+  position: relative;
+  z-index: -1;
+}
+
+.mainContent{
+  position: relative;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3em;
+}
+
+.sakuraBranch{
+  position: absolute;
+  top: 0;
+  left: -3em;
+  width: 50%;
+  pointer-events: none;
+}
+
+.branchContainer{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.sakuraBranch2{
+  position: absolute;
+  right: -3em;
+  width: 60%;
+  transform: translateY(-13em) rotate(180deg);
+}
+
+.sakuraBranch3{
+  position: absolute;
+  left: -3em;
+  width: 60%;
+  transform: translateY(-13em) rotate(180deg) rotateY(180deg);
+  pointer-events: none;
+}
+.sakuraPetals{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.buttonContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sakuraButton { 
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 164px;
+}
+
+@keyframes sakuraSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) sakuraSpin {
+    animation: sakuraSpin infinite 20s linear;
+  }
+}
+
+.navLabel{/* Positioning the Text */
+  position: absolute;
+  pointer-events: none;
+  margin-top: 13px;
+}
+
+.navBar{
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  right: 0;
+  top: 20%;
+  align-items: center;
+  z-index: 999;
+/* THIS NEEDS TO BE ABSOLUTE TO STAY ABOVE BODY */
+}
+
+.descriptionContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10% 10% 0% 10%;
+
+}
+
+
+/* for compare page (and hopefully timeline) */
+.splashContainer{
+  position: relative;
+  z-index: -1;
+}
+
+.splashContent{
+  width: 100%;  
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+/* section over */
+.compareTitle{
+  transform: translateY(2em);
+  margin-bottom: 2em;
+  text-align: end;
+  margin-right: 10%;
+
+}
+.selectionCol{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.searchBar{
+  border: #D98086 solid 8px !important;
+  border-radius: 15px !important;
+  background-color: #EBB3B2 !important;
+  color: #5A514C !important;
+  font-family: "Caveat", cursive;
+  font-weight: 600;
+  font-size: 18px;
+  width: 100%;
+  padding: 10px;
+  z-index: 15;
+  transition: 0.2s;
+
+  position: relative;
+}
+
+.searchBar:focus {
+  background-color: #EBB3B2 !important;
+  box-shadow: 0 0 10px rgba(255, 182, 193, 0.6) !important;
+  border-color: #D98086 !important;
+  outline: none;
+}
+
+.dropdown{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 10;
+  background-color: #EBB3B2;
+  border: 8px solid #D98086;
+  border-top: none;
+  border-radius: 0 0 15px 15px;
+   max-height: 250px;
+   overflow-y: auto;
+   margin-top: -10px;
+   padding-top: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.dropdown-item:last-child {
+  border-bottom: none;
+}
+
+.dropdown-item:hover {
+  background-color: #D98086;
+  color: white;
+
+}
+
+.searchContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2em;
+}
+.indexSelectionContainer{
+  margin-top: -5em;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 0; /* this project css is a hierarchial nightmare, and it's my fault*/
+}
+
+.compareButton{
+  cursor: pointer;
+  position: absolute !important;
+  transform: translateY(10em)
+}
+
+
+.compareContainer{
+  position: relative;
+  flex-direction: column;
+}
+
+.selection-wrapper{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+.center-overlay-button{
+  position: absolute;
+  z-index: 50;
+  /* bottom: -4em; */
+}
+
+.selectionContainer{
+  position: relative !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.selections{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-width: 5em;
+  border-radius: 15px;
+  gap: 9em;
+  margin: 5%;
+}
+
+.selections img{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.selection{
+  position: relative;
+  border-width: 8px !important;
+  border-radius: 15px;
+  object-fit: cover !important;
+
+  width: 400px !important;
+  height: 600px !important ;
+  flex-shrink: 0; /* prevents flexbox from shrinking one image to fit anouther o7 */
+}
+
+.firstSelection{
+  border: solid #ACC063;
+}
+
+.secondSelection{
+  border: solid #D98086;
+}
+
+.vsText{
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.vsText h1{
+  font-size: 200px;
+  font-family: "Caveat", cursive;
+  font-weight: 500;
+}
+
+.splashSelectionContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 99;
+}
+
+.clearButton{
+  position: absolute;
+  transform: translateY(5em);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.dataContainer{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: 7em !important;
+}
+
+.dataRowTop{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  min-height: 550px;
+  width: 100%;
+  gap: 5%;
+  margin-bottom: 2em;
+  margin-right: 10em !important;
+}
+
+.radarContainer {
+  width: 100%;
+  max-width: 650px;
+  height: 500px;
+
+  padding: 25px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sakuraPetal{
+  z-index: -1 !important;
+}
+
+.individualBar{
+  width: 100%;
+  height: 100%;
+  bottom: 0; 
+}
+.barGraphContainer{
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  align-items: center; 
+  width: 45%;
+  margin-top: 2em;
+  min-width: 45%;
+
+}
+
+.barContainer {
+  width: 100%;
+  position: relative;
+
+}
+
+.dataRowBottom{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+ .genrePotPie{
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10em;
+ }
+
+.pieContainer{
+  width: 100%;
+  height: 500px;
+}
+
+.genreCaption{
+  font-family: "Caveat", cursive;
+  color: #5A514C;
+  font-size: 18px;
+  margin-top: 0.5em;
+}
+.caption{
+  font-family: "Caveat", cursive;
+  color: #5A514C;
+  font-size: 18px;
+}
+.timelineCol{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timelineTitle{
+  text-align: start !important;
+  left: 0 !important;
+  margin-left: 10%;
+}
+.lineGraphWrapper{
+  width: 100%;       
+  min-width: 600px; 
+  height: 500px;  
+}
+
+.lineGraphContainer{
+  width: 100%;
+  height: 500px;
+
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 10;
+}
+
+input[type="radio"] {
+  accent-color: #D98086;
+
+  transform: scale(1.5);
+  margin-right: 8px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.titleBadge {
+  background-color: #EBB3B2;
+  border: 5px solid #D98086;
+  border-radius: 15px;
+  display: inline-block;
+  margin: 0 auto;
+  padding-left: 1em;
+  padding-right: 1em;
+  box-shadow: 4px 4px 10px rgba(217, 128, 134, 0.3);
+}
+
+h2.titleBadge {
+  padding-top: 10px !important; 
+}
+
+.sakura-modal{
+  max-width: 850px;
+  width: 90%;
+  margin: 0 auto;
+}
+/* Styles the actual white box of the modal */
+.sakura-modal .modal-content {
+  background-color: #F7E2C5; 
+  border: 4px solid #D98086; 
+  border-radius: 30px;
+  position: relative; 
+  overflow: visible;
+}
+
+
+.modal-flower {
+  position: absolute;
+  top: -35px;    
+  right: -30px; 
+  left: auto;
+  width: 120px; 
+  height: auto;
+  z-index: 10;   
+  pointer-events: none;
+
+  
+  
+  filter: drop-shadow(2px 4px 6px rgba(0,0,0,0.1)); 
+}
+
+.construction-list{
+  list-style-type: none;
+  padding-left: 0;
+  text-align: left;
+}
+
+.construction-list li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.5rem; /*IT'S ME AGAIN*/
+
+  font-family: "Caveat", cursive;
+  color: #5A514C;
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+.construction-bullet{
+  width: 24px;
+  height: 24px;
+  margin-right: 15px;
+  margin-top: 2px;
+  flex-shrink: 0; 
+}
+
+/* The AGREE Button - NO OPTION USER*/
+.agree-btn {
+  background-color: #EBB3B2;
+  color: #5A514C; 
+  border: 3px solid #D98086;
+  border-radius: 20px;
+  padding: 8px 25px;
+  font-weight: 600;
+  font-size: 22px;
+  font-family: "Caveat", cursive;
+  transition: all 0.2s ease-in-out;
+}
+
+.agree-btn:hover, .agree-btn:focus, .agree-btn:active {
+  background-color: #D98086 !important;
+  border-color: #D98086 !important;
+  transform: scale(1.05); /* a little pop  */
+}
