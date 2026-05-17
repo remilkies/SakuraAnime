@@ -57,12 +57,14 @@ Soft, aesthetic visuals inspired by cherry blossoms, focusing on user experience
 
 ```text
 User Input → React Frontend → Express Backend → MyAnimeList API
-                                     ↓
-                              Data Processing
-                                     ↓
-                          Structured JSON Response
-                                     ↓
-                     Visual Rendering (Charts & UI)
+                                                      ↓
+                                    (Raw JSON Data Returned)
+                                                      ↓
+                              Express Backend (Proxy & Forwarding)
+                                                      ↓
+                              React Frontend (Data Processing in Context)
+                                                      ↓
+                                Visual Rendering (Chart.js & UI)
 ```
 
 ---
