@@ -4,7 +4,7 @@
 
 ---
 
-<img src="/Sakura-Anime/src/assets/SakuraAnime/sakuraBranch.png" align="left" width="70%" height="auto">
+<img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="10%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="10%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="10%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="10%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="10%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="10%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="10%" height="auto">
 ## ✨ Overview
 
 **Sakura Anime** is a visually immersive web application that transforms anime data into an interactive experience. Inspired by the softness and flow of falling sakura petals, this project combines **real-time search**, **data visualisation**, and **clean UI design** into one cohesive platform.
