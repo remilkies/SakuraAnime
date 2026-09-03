@@ -1,17 +1,13 @@
-# 🌸 Sakura Anime
+<p align="center">
+<img src="/Sakura-Anime/src/assets/SakuraAnime/logo.png" height="250px">
+</p>
 
 > *A delicate blend of data and design — where anime meets elegant interaction.*
 
----
+**Sakura Anime** is a kawaii data-visualisation platform that lets you explore anime statistics from MyAnimeList through interactive charts and timelines. 
+Discover trends, compare rankings, and see how your favourite series shine over time.
 
-<img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="10%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="10%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="10%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="10%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="10%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="10%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="10%" height="auto">
-## ✨ Overview
-
-**Sakura Anime** is a visually immersive web application that transforms anime data into an interactive experience. Inspired by the softness and flow of falling sakura petals, this project combines **real-time search**, **data visualisation**, and **clean UI design** into one cohesive platform.
-
-It's not just about finding anime - it’s about *experiencing* it >:D
-
----
+<img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto">
 
 ## 🌺 Core Features
 
@@ -31,7 +27,7 @@ Compare multiple anime across ratings, popularity, and structure.
 
 Soft, aesthetic visuals inspired by cherry blossoms, focusing on user experience and visual harmony.
 
----
+<img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto">
 
 ## 🛠️ Tech Stack
 
@@ -52,7 +48,7 @@ Soft, aesthetic visuals inspired by cherry blossoms, focusing on user experience
 
 * MyAnimeList API (via secure backend routing)
 
----
+<img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto">
 
 ## 🧠 Application Flow
 
@@ -67,8 +63,9 @@ User Input → React Frontend → Express Backend → MyAnimeList API
                                                       ↓
                                 Visual Rendering (Chart.js & UI)
 ```
-
----
+<p align="center" padding="10px">
+<img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto">
+</p>
 
 ## ⚙️ Installation & Setup
 
@@ -133,7 +130,7 @@ MAL_CLIENT_ID=your_client_id_here
 GET http://localhost:5050/anime?q=naruto
 ```
 
----
+<img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto">
 
 ## 🎯 Purpose of the Project
 
@@ -142,7 +139,7 @@ GET http://localhost:5050/anime?q=naruto
 * Transform data into **interactive visual storytelling**
 * Develop a strong **UI/UX design identity**
 
----
+<img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto">
 
 🌸 The REMByte Protocol
 
@@ -155,14 +152,14 @@ There will definitly be no Syntax errors
 REMByte is not just about building applications — it’s about engineering atmosphere >:D
 
 
----
+<img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto">
 
 ## 👩‍💻 Author
 
 Created by **REMByte** <3
 *Blending UX, development, and storytelling through code.*
 
----
+<img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto">
 
 ## 🌸 Closing Note
 
