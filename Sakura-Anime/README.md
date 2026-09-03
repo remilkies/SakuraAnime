@@ -1,35 +1,171 @@
-# React + Vite
+# 🌸 Sakura Anime
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> *A delicate blend of data and design — where anime meets elegant interaction.*
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Overview
 
-## React Compiler
+**Sakura Anime** is a visually immersive web application that transforms anime data into an interactive experience. Inspired by the softness and flow of falling sakura petals, this project combines **real-time search**, **data visualisation**, and **clean UI design** into one cohesive platform.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+It's not just about finding anime - it’s about *experiencing* it >:D
 
-## Expanding the ESLint configuration
+---
+<img src="src/assets/SakuraAnime/sakuraBranch.png" width="70%" height="auto" align="left">
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🌺 Core Features
 
-General Website Flow
-React (frontend)
-        ↓
-http://localhost:5000/anime   ← YOUR backend
-        ↓
-MyAnimeList API
-        ↓
-Your backend sends data back
-        ↓
-React receives it
+### 🔍  Search
 
-r/ ExplainLikeI'm5
+Search for anime titles in real time through a custom backend connected to the MyAnimeList API.
 
-React App: “I want anime data!”
+### 🥧 Genre Visualisation
 
-MyAnimeList: “I don’t talk to browsers directly”
+Beautiful pie charts dynamically display genre distributions, turning raw data into meaningful visuals.
 
-Backend Server: “I’ll go get it for you”
+### ⚔️ Anime Comparison *(In Progress)*
+
+Compare multiple anime across ratings, popularity, and structure.
+
+### 🎨 Sakura-Inspired Design
+
+Soft, aesthetic visuals inspired by cherry blossoms, focusing on user experience and visual harmony.
+
+<img src="/Sakura-Anime/src/assets/SakuraAnime/sakuraBranch.png" width="70%" height="auto">
+
+## 🛠️ Tech Stack
+
+### 🌸 Frontend
+
+* React (Vite)
+* Chart.js / react-chartjs-2
+* Custom CSS Styling
+
+### 🌿 Backend
+
+* Node.js
+* Express
+* CORS
+* node-fetch
+
+### 🌐 API
+
+* MyAnimeList API (via secure backend routing)
+
+---
+
+## 🧠 Application Flow
+
+```text
+User Input → React Frontend → Express Backend → MyAnimeList API
+                                                      ↓
+                                    (Raw JSON Data Returned)
+                                                      ↓
+                              Express Backend (Proxy & Forwarding)
+                                                      ↓
+                              React Frontend (Data Processing in Context)
+                                                      ↓
+                                Visual Rendering (Chart.js & UI)
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/sakura-anime.git
+cd sakura-anime
+```
+
+---
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+---
+
+### 3. Start backend server
+
+```bash
+node server.js
+```
+
+Server runs on:
+
+```
+http://localhost:5050
+```
+
+---
+
+### 4. Start frontend
+
+```bash
+npm run dev
+```
+
+Frontend runs on:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🔐 Environment Variables
+
+Create a `.cjs` file:
+
+```env
+MAL_CLIENT_ID=your_client_id_here
+```
+
+---
+
+## 📊 Example API Request
+
+```bash
+GET http://localhost:5050/anime?q=naruto
+```
+
+---
+
+## 🎯 Purpose of the Project
+
+* Explore **full-stack development** (React + Express)
+* Safely integrate external APIs using a backend
+* Transform data into **interactive visual storytelling**
+* Develop a strong **UI/UX design identity**
+
+---
+
+🌸 The REMByte Protocol
+
+The REMByte Protocol (REMByte) represents a design-forward approach to development where:
+
+Code is structured with intention
+Interfaces are crafted as experiences
+There will definitly be no Syntax errors
+
+REMByte is not just about building applications — it’s about engineering atmosphere >:D
+
+
+---
+
+## 👩‍💻 Author
+
+Created by **REMByte** <3
+*Blending UX, development, and storytelling through code.*
+
+---
+
+## 🌸 Closing Note
+
+> *Like sakura petals, great experiences are light, beautiful, and memorable.*
+
+---
