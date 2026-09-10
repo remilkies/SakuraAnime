@@ -18,6 +18,7 @@ import PieChart from "./Components/GenrePieChart";
 import PetalRain from "./Components/SakuraPetalRain";
 import { AnimeContext } from "./Components/AnimeContext";
 import Button from "./Buttons";
+import DisplayContainer from "./Components/DisplayContainer";
 
 function Compare() {
   const { anime1, anime2, setAnime1, setAnime2 } = useContext(AnimeContext);
@@ -46,12 +47,12 @@ function Compare() {
           <Container fluid className="splashContent">
             <Container fluid className="splashSelectionContainer">
               <div className="selection-wrapper">
-                <SelectionContainer
+                <DisplayContainer
                   anime1={anime1}
                   anime2={anime2}
                   setAnime1={setAnime1}
                   setAnime2={setAnime2}
-                ></SelectionContainer>
+                ></DisplayContainer>
                 {/* <Button onClick={handleClearData} className="clearButton">Clear Selection</Button> */}
               </div>
             </Container>
