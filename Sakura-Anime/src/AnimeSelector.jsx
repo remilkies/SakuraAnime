@@ -42,15 +42,18 @@ const [selectedAnime, setSelectedAnime] = useState(null);
     const fetchAnime = async () => {
         try {
           const fields = "id,title,main_picture,mean,popularity,rank,num_episodes,num_scoring_users,genres,start_date"; //specify which fields we want to fetch from the API to save bandwidth and speed up response time
-          const res = await fetch(`http://localhost:5050/search?q=${searchTerm}&fields=${fields}`) //sends an HTTP GET request to fetch data from backend server that fetches data from the API BECUASE OF STUPID CORS
-        if (!res.ok) throw new Error (`ERROR ERROR HTTP ERROR, status: ${res.status}`); //little safegaurd
+          const safeSearchTerm = encodeURIComponent(searchTerm);
+          
+          const res = await fetch(`http://localhost:5050/search?q=${safeSearchTerm}&fields=${fields}`);
+          
+        if (!res.ok) throw new Error (`💥 NANI?! HTTP ERROR, status: ${res.status}`); 
 
-        const data = await res.json();//Convert the response to json
+        const data = await res.json();
         setResults(data.data || []);
-        console.log("API DATA:", data);
+        console.log("✨ FRONTEND TREASURE SECURED:", data);
       
-        }catch(err) {
-        console.error("I CAN'T FETCH ANYTHING AHHHH:", err);
+        } catch(err) {
+        console.error("😭 I CAN'T FETCH ANYTHING AHHHH:", err);
       }
     };
 
