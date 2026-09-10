@@ -11,6 +11,7 @@ import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 
 import SelectionContainer from "./selectionContainer";
+import DisplayContainer from "./Components/DisplayContainer";
 import LineGraph from "./Components/LineGraph";
 import sakuraBranch from "./assets/SakuraAnime/sakuraBranch.png";
 import PetalRain from "./Components/SakuraPetalRain";
@@ -33,7 +34,7 @@ function Timeline() {
 
         <Container fluid className="splashContainer">
           <Container fluid className="splashContent">
-            <SelectionContainer></SelectionContainer>
+            <DisplayContainer></DisplayContainer>
 
             <Container fluid className="branchContainer">
               <Row>
