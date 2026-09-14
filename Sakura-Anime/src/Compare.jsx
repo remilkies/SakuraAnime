@@ -1,6 +1,7 @@
 //compare.jsx
 
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import "./App.css";
 
@@ -21,6 +22,7 @@ import Button from "./Buttons";
 import DisplayContainer from "./Components/DisplayContainer";
 
 function Compare() {
+  const navigate = useNavigate();
   const { anime1, anime2, setAnime1, setAnime2 } = useContext(AnimeContext);
   console.log("Anime 1:", anime1);
   console.log("Anime 2:", anime2);
@@ -94,15 +96,25 @@ function Compare() {
                   flavours{" "}
                 </h3>
                 <div className="dataRowBottom">
+                  <div className="pieGraphContainer">
                   <Col md={6}>
                     <PieChart anime={anime1}></PieChart>
                   </Col>
                   <Col md={6}>
                     <PieChart anime={anime2}></PieChart>
                   </Col>
+                  </div>
                 </div>
               </Row>
             </Container>
+
+            <Container fluid className="indexSelectionContainer">
+              <div className="selection-wrapper">
+                <SelectionContainer />
+                <Button onClick={() => navigate("Compare")} className="compareButton">Compare</Button>
+                </div>
+          </Container>
+
           </Container>
         </Container>
       </Container>

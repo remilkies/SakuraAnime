@@ -28,16 +28,18 @@ function normalizeAnime(anime) {
   const episodes = anime.num_episodes ?? 0;
   const users = anime.num_scoring_users ?? 0;
 
+  const roundScore = (num) => Math.round(num * 10) / 10;
+
   return [
-    (mean / 10) * 100,
+    roundScore((mean / 10) * 100),
 
-    Math.max(0, 100 - (popularity / MAX_POPULARITY) * 100),
+    roundScore(Math.max(0, 100 - (popularity / MAX_POPULARITY) * 100)),
 
-    Math.max(0, 100 - (rank / MAX_RANK) * 100),
+    roundScore(Math.max(0, 100 - (rank / MAX_RANK) * 100)),
 
-    Math.min(100, (episodes / MAX_EPISODES) * 100),
+    roundScore(Math.min(100, (episodes / MAX_EPISODES) * 100)),
 
-    Math.min(100, (users / MAX_USERS) * 100)
+    roundScore(Math.min(100, (users / MAX_USERS) * 100))
   ];
 };
 
