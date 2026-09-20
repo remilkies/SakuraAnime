@@ -163,6 +163,7 @@ button{
   right: -3em;
   width: 60%;
   transform: translateY(-13em) rotate(180deg);
+  pointer-events: none;
 }
 
 .sakuraBranch3{
@@ -237,7 +238,7 @@ button{
 /* for compare page (and hopefully timeline) */
 .splashContainer{
   position: relative;
-  z-index: -1;
+  z-index: 0;
 }
 
 .splashContent{
@@ -403,7 +404,7 @@ button{
   position: absolute;
   justify-content: center;
   align-items: center;
-  
+  pointer-events: none;
 }
 
 .vsText h1{
@@ -503,6 +504,11 @@ button{
   padding-bottom: 10em;
  }
 
+ .pieGraphContainer{
+  width: 100%;
+  height: 700px;
+  display: flex;
+ }
 .pieContainer{
   width: 100%;
   height: 500px;
