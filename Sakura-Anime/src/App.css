@@ -4,6 +4,14 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+html, body, #root {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+  margin: 0;
+
+/* cursor: url('your-custom-grab-icon.svg'), grab; */
+cursor: url('./assets/SakuraAnime/customCursor.svg') 0 0, pointer !important;
+}
 row{
   width: fit-content;
 }
@@ -127,7 +135,6 @@ z-index: 1;
 button{
   background-color: transparent;
   border: none;
-  cursor: pointer;
 }
 
 
@@ -329,7 +336,6 @@ button{
 }
 
 .compareButton{
-  cursor: pointer;
   position: absolute !important;
   transform: translateY(10em)
 }
@@ -428,9 +434,9 @@ button{
   transform: translateY(5em);
   background-color: transparent;
   border: none;
-  cursor: pointer;
+
   z-index: 10;
-  cursor: pointer;
+
 }
 
 .dataContainer{
@@ -562,7 +568,7 @@ input[type="radio"] {
   transform: scale(1.5);
   margin-right: 8px;
   margin-left: 15px;
-  cursor: pointer;
+
 }
 
 .titleBadge {
