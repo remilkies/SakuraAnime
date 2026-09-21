@@ -4,7 +4,9 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
-
+row{
+  width: fit-content;
+}
 body{
   margin: 0;
   padding: 0;
@@ -501,12 +503,11 @@ button{
   margin-top: 1em;
   display: flex;
   flex-direction: column;
-  padding-bottom: 10em;
+  margin-bottom: 10em;
  }
 
  .pieGraphContainer{
   width: 100%;
-  height: 700px;
   display: flex;
  }
 .pieContainer{
@@ -568,7 +569,7 @@ input[type="radio"] {
   background-color: #EBB3B2;
   border: 5px solid #D98086;
   border-radius: 15px;
-  display: inline-block;
+  width: fit-content;
   margin: 0 auto;
   padding-left: 1em;
   padding-right: 1em;
