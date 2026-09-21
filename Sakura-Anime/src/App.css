@@ -4,7 +4,17 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+html, body, #root {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+  margin: 0;
 
+/* cursor: url('your-custom-grab-icon.svg'), grab; */
+cursor: url('./assets/SakuraAnime/customCursor.svg') 0 0, pointer !important;
+}
+row{
+  width: fit-content;
+}
 body{
   margin: 0;
   padding: 0;
@@ -125,7 +135,6 @@ z-index: 1;
 button{
   background-color: transparent;
   border: none;
-  cursor: pointer;
 }
 
 
@@ -327,7 +336,6 @@ button{
 }
 
 .compareButton{
-  cursor: pointer;
   position: absolute !important;
   transform: translateY(10em)
 }
@@ -426,9 +434,9 @@ button{
   transform: translateY(5em);
   background-color: transparent;
   border: none;
-  cursor: pointer;
+
   z-index: 10;
-  cursor: pointer;
+
 }
 
 .dataContainer{
@@ -501,12 +509,11 @@ button{
   margin-top: 1em;
   display: flex;
   flex-direction: column;
-  padding-bottom: 10em;
+  margin-bottom: 10em;
  }
 
  .pieGraphContainer{
   width: 100%;
-  height: 700px;
   display: flex;
  }
 .pieContainer{
@@ -561,14 +568,14 @@ input[type="radio"] {
   transform: scale(1.5);
   margin-right: 8px;
   margin-left: 15px;
-  cursor: pointer;
+
 }
 
 .titleBadge {
   background-color: #EBB3B2;
   border: 5px solid #D98086;
   border-radius: 15px;
-  display: inline-block;
+  width: fit-content;
   margin: 0 auto;
   padding-left: 1em;
   padding-right: 1em;

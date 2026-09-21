@@ -132,7 +132,7 @@ return(
   <div className="lineGraphContainer" style={{ position: "relative", zIndex: 99 }}>
 <div style={{ marginBottom: "2em" }}>
         {toggleOptions.map((option, idx) => (
-          <label key={idx} className="radioLabel" style={{ marginRight: "15px", cursor: "pointer" }}>
+          <label key={idx} className="radioLabel" style={{ marginRight: "15px"}}>
             <input 
               type="radio" 
               name="timelineStat" 

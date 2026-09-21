@@ -111,7 +111,7 @@ function Compare() {
             <Container fluid className="indexSelectionContainer">
               <div className="selection-wrapper">
                 <SelectionContainer />
-                <Button onClick={() => navigate("Compare")} className="compareButton">Compare</Button>
+                <Button onClick={() => navigate("/Compare")} className="compareButton">Compare</Button>
                 </div>
           </Container>
 
