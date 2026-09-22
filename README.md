@@ -3,7 +3,7 @@
 </p>
 
 > *A delicate blend of data and design — where anime meets elegant interaction.*
-
+<img src="/mockups/sakuraMockup.png" width="30%"><img src="/mockups/sakuraMockup3.png" width="30%"><img src="/mockups/sakuraMockup2.png" width="30%">
 **Sakura Anime** is a kawaii data-visualisation platform that lets you explore anime statistics from MyAnimeList through interactive charts and timelines. 
 Discover trends, compare rankings, and see how your favourite series shine over time.
 
@@ -24,9 +24,11 @@ Beautiful pie charts dynamically display genre distributions, turning raw data i
 
 Compare multiple anime across ratings, popularity, and structure.
 
+
 ### 🎨 Sakura-Inspired Design
 
 Soft, aesthetic visuals inspired by cherry blossoms, focusing on user experience and visual harmony.
+
 
 <img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto"><img src="/Sakura-Anime/src/assets/SakuraAnime/flowerFeature.png" align="left" width="2.5%" height="auto">
 <p>&hairsp;</p>
